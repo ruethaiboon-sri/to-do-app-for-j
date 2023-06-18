@@ -1,0 +1,41 @@
+h2{
+    font-size: 2rem;
+    text-align:center;
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+}
+.text-input{
+    flex-grow: 1;
+    padding: 5px 5px;
+    border: 1px solid #eaeaea;
+    font-size: 18px;
+}
+.text-input:focus{
+    outline: none;
+}
+.submit-btn{
+    background: rgb(146, 146, 224);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size:1.2rem;
+    border: transparent;
+}
+
+.heart{
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    transition: all 500ms;
+}
+
+
+@media (max-width: 768px){
+h2{
+      font-size: 32px;
+    }
+  }
